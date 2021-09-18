@@ -53,7 +53,7 @@ body {
     .hero {
         
         position: relative;
-        background: url("../images/hero-bg.jpg");
+        background-image: url("../images/hero-bg.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -128,4 +128,63 @@ body {
     #contact-me ul li a{
         font-size: 28px;
         color: #000075;   
+    }
+
+    #work {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        height: 600px;
+    }
+    #work h2{
+        flex: 1 20%;
+        font-size: 50px;
+        color: #000075;
+        text-align: right;
+        padding-right: 20px;
+        border-right: 5px solid #000075;
+    }
+    .layout{
+        flex: 1 70%;
+        display: flex;
+        padding-left: 22px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    #surf-report {
+        background-image: url("../images/image1.jpg");
+        background-position: center;
+        background-size: cover;
+        flex: 3 40%;
+        height: 200px;
+    }
+    #led-wall {
+        background-image: url("../images/image2.jpg") ;
+        background-size: cover;
+        background-position: center;
+        flex: 1 15%;
+        height: 100px;
+    }
+    #calculator{
+        background-image: url("../images/image3.jpg");
+        background-size: cover;
+        background-position: center;
+        flex: 1 15%;
+        height: 100px;
+    }
+    #pastel-puzzles {
+        background-image: url("../images/image4.jpg");
+        background-size: cover;
+        background-position: center;
+        flex: 1 15%;
+        height: 100px;
+    }
+    #run-buddy {
+        background-image: url("../images/image5jpg.jpg");
+        background-position: center;
+        background-size: cover;
+        flex: 1 15%;
+        height: 100px;
     }
