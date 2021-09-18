@@ -96,3 +96,36 @@ body {
         color: #000075;
         flex: 1 70%;
     }
+
+    #contact-me {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        height: 100px;
+        margin-bottom: 5px;
+    }
+    #contact-me h2{
+        flex: 1 20%;
+        font-size: 50px;
+        color: #000075;
+        text-align: right;
+        padding-right: 20px;
+        border-right: 5px solid #000075;
+    }
+    #contact-me span{
+        display: block;
+    }
+    #contact-me ul{
+        padding-left: 22px;
+        color: #000075;
+        display: flex;
+        justify-content: space-evenly;
+        flex: 1 70%;
+        list-style: none;
+        padding-top: 40px;
+    }
+    #contact-me ul li a{
+        font-size: 28px;
+        color: #000075;   
+    }
