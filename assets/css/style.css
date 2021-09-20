@@ -168,7 +168,7 @@ header nav ul li a{
         width: 100%;
         position: relative;
         border: 5px solid #00bfff;
-        margin: 5px;
+        margin: 7px;
         padding: 0px;
         opacity: 0.70;
 }
@@ -187,7 +187,7 @@ header nav ul li a{
         width: 100%;
         position: relative;
         border: 5px solid #00bfff;
-        margin: 5px;
+        margin: 7px;
         padding: 0px;
         opacity: 0.70;
 }
@@ -207,6 +207,12 @@ header nav ul li a{
         color:#000075;
         background: #00bfff;
 } 
+.inside p{
+    font-size: 15px;
+}
+.inside h3{
+    font-size: 21px;
+}
     /*adding mediaqueries*/
     @media screen and (max-width: 980px){
         
