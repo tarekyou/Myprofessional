@@ -17,12 +17,13 @@ header {
     justify-content: space-between ;
     flex-wrap: wrap;
     align-items: flex-start;
+    padding: 20px 0;
 }
 header h1 {
-        margin-left: -1px;    
+          
         flex: 0 20%;
         font: bold 100px;
-        margin: 0;
+        
         color: #000036;
         background-color: #00bfff;
         text-align: end;
@@ -79,7 +80,7 @@ header nav ul li a{
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
-        height: 200px;
+        height: 350px;
 }
 
 #about-me h2{
@@ -99,6 +100,10 @@ header nav ul li a{
         color: #000075;
         flex: 1 70%;
         padding-right: 30px;
+}
+#about-me img {
+    display: block;
+    margin: 0px auto;
 }
 /*styling contact-me*/
 #contact-me {
@@ -264,6 +269,7 @@ header nav ul li a{
         #contact-me h2, #work h2, #about-me h2{
             font-size: 25px;
         }
+
         #about-me p{
             font-size: 10px;
         }
@@ -294,6 +300,7 @@ header nav ul li a{
         .inside{
             font-size: 10px;
         }
+
     }
         
     
